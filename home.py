@@ -11,6 +11,10 @@ import common.login as login
 # st.header('Página principal')
 login.generarLogin()
 
+# Cuerpo principal
+    # Agregar el logo
+st.image("assets/logo_sada.png", width=200)
+
 def main():
     st.title("Bem-vindo a Betovoley-Sada Cruzeiro Stats")
 
@@ -30,9 +34,7 @@ def main():
     </div>
     """, unsafe_allow_html=True)
 
-    # Cuerpo principal
-    # Agregar el logo
-    st.image("assets/logo_sada.png", width=200)
+    
 
     # Imagen en la barra lateral
     HORIZONTAL_RED = "assets/medalla.png"
