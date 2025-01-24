@@ -1,3 +1,3 @@
 usuario,nombre,clave
-admin,"admin",admin
-MPAD,"MPAD",MPAD
+"admin,""admin"",admin"
+"MPAD,""MPAD"",MPAD"
